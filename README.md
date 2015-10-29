@@ -10,7 +10,8 @@ go version go1.5.1 darwin/amd64
 $ echo $GO15VENDOREXPERIMENT
 1
 $ go get github.com/mattn/gom
-$ git clone git@github.com:achiku/sample-golang-packaging-gom.git && cd sample-golang-packaging-gom
+$ git clone git@github.com:achiku/sample-golang-packaging-gom.git 
+$ cd sample-golang-packaging-gom
 $ gom install
 $ find vendor -type d -maxdepth 2
 vendor
